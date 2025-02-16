@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="question">He was so cute!</h1>
+    <img src="confused cat GIF.gif" alt="Cute GIF" width="300px" height="300px" class="giffy">
+    
+    <div class="buttons">
+        <button class="button back" onclick="goBack(5)">Back</button>
+        <button class="button next" onclick="next(7)">Next</button>
+    </div>
+
+    <h1 class="text">I couldn't contain myself</h1>
+
+    <script>
+        function goBack() {
+            window.location.href = "page5.html"; // Link to the previous page
+        }
+        function next() {
+            window.location.href = "page7.html"; // Link to the next page
+        }
+    </script>
+</body>
+</html>
